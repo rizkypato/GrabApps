@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PembayaranActivity">
+
+    <RelativeLayout
+        android:id="@+id/tam1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+       android:background="#C0DBEA">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembayaram"
+            android:textStyle="bold"
+            android:textSize="25dp"
+           android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/gmr1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bri"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/tem2"
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:background="@drawable/pth"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/txt1">
+
+            <TextView
+                android:id="@+id/nik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nikmati"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/pem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pembayaran"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_below="@id/nik"/>
+
+            <TextView
+                android:id="@+id/non"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nontunai"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_below="@id/pem"/>
+
+            <TextView
+                android:id="@+id/akt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aktifkan"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_below="@id/non"
+                android:layout_marginTop="20dp"
+                android:textColor="#19A7CE"/>
+
+            <TextView
+                android:id="@+id/sek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sekarang"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:layout_below="@id/akt"
+                android:textColor="#19A7CE"/>
+
+            <ImageView
+                android:id="@+id/gmb2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tam3"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:background="@drawable/hijau"
+        android:layout_below="@id/tam1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/gmr3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lope"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tambahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tambahkan Kartu"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="15sp"
+            android:layout_toRightOf="@id/gmr3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembayaran nontunai dengan Kartu kre..."
+            android:textColor="@color/white"
+            android:layout_below="@id/tambahan"
+            android:layout_toRightOf="@id/gmr3"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
